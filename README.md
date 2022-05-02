@@ -1,2 +1,2 @@
 # Just-Code
-Here is just code, which i decided to save
+Here is just the code, which i decided to save
