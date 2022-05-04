@@ -1,0 +1,85 @@
+<style type="text/css">
+	.container {width: 1000px;}
+.row_colonkisflex {display: flex;flex-direction: column;}
+.title_colonkisflex {align-self: center;}
+.body_colonkisflex {display: flex;flex-wrap: wrap;}
+/* THIS LINE! If width 50% then it will show 1 row. If more, then it will show 2 columns.
+Because of it, will be better to do different DIV for every element, because IT WILL BE
+BETTER TO OPTIMIZE IT IN DIFFERENT SCREENS! 
+ */
+.desription_flex {display: flex;margin: 0px;width:60%;}
+.description_flex__item {display: flex;}
+.description_flex_item_image {display: flex;}
+.imageFlex {width: 100%;}
+.description_flex_item_body {display: flex;flex-direction: column;}
+.description_flex_item_body_title {}
+.description_flex_item_body_text {flex: 1 1 auto;padding-top: 5px;}
+.description_flex__row {}
+</style>
+<div class="container">
+	<div class="row_colonkisflex">
+		<div class="title_colonkisflex">
+			<p>
+				Колонки с flex контейнерами	
+			</p>
+		</div>
+		<div class="body_colonkisflex">
+			<div class="desription_flex">
+				<div class="description_flex__item">
+					<div class="description_flex_item_image">
+						<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" class="imageFlex">
+					</div>
+					<div class="description_flex_item_body">
+						<div class="description_flex_item_body_title">
+							The description for this image
+						</div>
+						<div class="description_flex_item_body_text">
+							Descriptiovnre vrv v ervrevikervier vrevreerverver vrevrevr
+						</div>
+					</div>
+				</div>
+				<div class="description_flex__item">
+					<div class="description_flex_item_image">
+						<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"class="imageFlex">
+					</div>
+					<div class="description_flex_item_body">
+						<div class="description_flex_item_body_title">
+							The description for this image
+						</div>
+						<div class="description_flex_item_body_text">
+							Descriptiovnre vrv v ervrevikervier vrevreerverver vrevrevr
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="desription_flex">
+				<div class="description_flex__item">
+					<div class="description_flex_item_image">
+						<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"class="imageFlex">
+					</div>
+					<div class="description_flex_item_body">
+						<div class="description_flex_item_body_title">
+							The description for this image
+						</div>
+						<div class="description_flex_item_body_text">
+							Descriptiovnre vrv v ervrevikervier vrevreerverver vrevrevr
+						</div>
+					</div>
+				</div>
+				<div class="description_flex__item">
+					<div class="description_flex_item_image">
+						<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"class="imageFlex">
+					</div>
+					<div class="description_flex_item_body">
+						<div class="description_flex_item_body_title">
+							The description for this image
+						</div>
+						<div class="description_flex_item_body_text">
+							Descriptiovnre vrv v ervrevikervier vrevreerverver vrevrevr
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
